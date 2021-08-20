@@ -1,0 +1,241 @@
+/* #29ca8e */
+/* Universal styling */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2500px;
+    font-family: 'Lato', sans-serif;
+}
+/* Row holders */
+.row{
+    /* border: 3px solid brown; */
+    max-width: 90%;
+    margin: 0 auto;
+}
+/* Header section */
+header{
+    border-top: 5px solid #29ca8e;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: white;
+}
+
+.header_items{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* link/contact card holder */
+.link_contact_card{
+    width: 82%;
+    margin: 0 0 0 170px;
+}
+/* Header links */
+.link_holder{
+   clear: both;
+    /* margin: 0 0 0 100px; */
+}
+.link_holder ul{
+   list-style: none; 
+}
+
+.link_holder ul a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px 10px;
+}
+.link_holder ul li{
+    float: left;
+    width: 110px;
+}
+.link_holder ul li:hover{
+    background: #29ca8e;
+}
+.link_holder ul a:hover{
+    background: #29ca8e;
+    color: white;
+}
+.active_link{
+   background: #29ca8e;
+   color: white!important; 
+}
+
+.li_link{
+    display: inline-block;
+}
+/* header icon */
+.icon_holder{
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    background: #29ca8e;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 0.5;
+}
+.icon{
+    color: white;
+    font-size: 16px;
+    margin: 0px 10px 0px 0px;
+    vertical-align: middle;
+}
+/* .icon:hover{
+    color: white;
+} */
+.Contact_holder{
+    padding: 13px 10px;
+    box-sizing: border-box;
+}
+.Contact_holder:hover{
+    background: #29ca8e;
+    color: white;
+}
+.Contact_holder:hover .icon{
+    color: white;
+
+}
+.Contact_holder:hover .icon_holder{
+    border: 1px solid white;
+
+}
+
+/* Header logo section */
+.logo_holder{
+    width: 100px;
+    height: 100px;
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    background: #29ca8e;
+    text-align: center;
+}
+.Mallax_logo{
+    color: white;
+    font-size: 50px;
+    vertical-align: middle;
+}
+/* header banner section */
+.header_banner_section{
+    background: url("../img/image.jfif");
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    margin: 62px 0 0 0;
+    padding: 12% 0 0 0;
+    
+}
+.header_banner_section h1{
+    font-size: 30px;
+    color: #29ca8e;
+    margin: 0 0 20px 0;
+}
+.header_banner_section p{
+    font-size: 20px;
+    color: white;
+
+ }
+ .button_discover:hover{
+     background: #29ca8e;
+     color: white;
+ }
+ .button_discover{
+    border: 2px solid #29ca8e;
+    color: #29ca8e;
+    background: rgba(0,0,0,0.1);
+    padding: 15px 35px;
+    border-radius: 25px;
+    margin: 10px 0 0 0;
+ }
+ 
+ /* About us section */
+ .Aboutus_section{
+     height: 300px;
+     background: rgba(128, 128, 128,0.07);
+     text-align: center;
+     padding: 35px 0 0 0 ;
+ }
+ .Aboutus_section h1{
+     margin: 0 0 20px 0;
+     font-size: 30px;
+ }
+ .Aboutus_section p{
+     font-size: 20px;
+ }
+ /* Missions statement section */
+ .mission_statement{
+     width: 100%;
+     height: 500px;
+     padding: 50px 0 0 0;
+ }
+ 
+ .simple_cards h2{
+    margin: 10px 0 20px 0;
+}
+.first_p{
+    margin: 0 0 10px 0;
+    font-size: 21px;
+}
+ .simple_icon_holder{
+     width: 60px;
+     height: 60px;
+     border: 1px solid #29ca8e;
+     display: inline-block;
+     text-align: center;
+     padding: 10px;
+     border-radius: 50%;
+     line-height: 2.5;
+     font-size: 20px;
+ }
+ .simple_icons{
+    color: #29ca8e;
+    font-size: 25px;
+ }
+
+ .simple_cards:hover .simple_icon_holder{
+     background: #29ca8e;
+
+ }
+ .simple_cards:hover .simple_icons{
+     color: white;
+ }
+ .simple_cards:hover{
+     color: #29ca8e;
+ }
+ .simple_cards{
+    border: 2px solid #29ca8e;
+    height: 400px;
+    padding: 30px;
+    vertical-align: middle!important;
+}
+
+
+ /* services section */
+ .services{
+     height: 490px;
+     clear: both;
+     padding: 20px 0 0 0;
+ }
+ .ex_cards{
+     border: 1px solid #29ca8e;
+     height: 200px;
+     padding: 10px;
+     border-radius: 10px;
+ }
+ .ex_icon_holder{
+     float: left;
+     margin: 0 15px 0 0;
+ }
+ .ex_text_holder h2{
+     margin: 0 0 5px 0;
+ }
+ .second_excards{
+     clear: both;
+ }
+ 
